@@ -1,0 +1,101 @@
+{
+    "total_points_available": 100,
+    "tests": [
+        {
+            "output": {
+                "points_available": 19,
+                "points_awarded": 18,
+                "autograder_comments": "Tridirectional search fails benchmarks searching from start to goal node\nPath is longer than optimal path\nNodes explored should be from a valid frontier and should be kept to a minimum\nOn average, number of nodes explored more than the benchmark = 1.64957264957\n",
+                "pass_ratio": 0.9828947368421053
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_opzujqba/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 208, in test_tristar\n    self.assertTrue(tests_pass, \"Tridirectional Search Tests\")\nAssertionError: Tridirectional Search Tests\n",
+            "description": "Test the tri-directional search implementation"
+        },
+        {
+            "output": {
+                "points_available": 0,
+                "points_awarded": null,
+                "autograder_comments": "Improved Tridirectional search fails benchmarks searching from start to goal node\nNodes explored should be from a valid frontier and should be kept to a minimum\nPath is longer than optimal path\nPath does not go from start to goal node or is invalid\nOn average, number of nodes explored more than the benchmark = 0.107427055703\n",
+                "pass_ratio": 0.6692982456140351
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_opzujqba/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 295, in test_tristar_landmarks\n    self.assertTrue(tests_pass, \"Improved Tridirectional Search Tests\")\nAssertionError: Improved Tridirectional Search Tests\n",
+            "description": "Test the improved tri-directional search against landmark search"
+        },
+        {
+            "output": {
+                "points_available": 15,
+                "points_awarded": 10,
+                "autograder_comments": "Improved Tridirectional search fails benchmarks searching from start to goal node\nPath is longer than optimal path\nPath does not go from start to goal node or is invalid\nOn average, number of nodes explored more than the benchmark = 0.0\n",
+                "pass_ratio": 0.8403508771929824
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_opzujqba/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 251, in test_tristar_upgraded\n    self.assertTrue(tests_pass, \"Improved Tridirectional Search Tests\")\nAssertionError: Improved Tridirectional Search Tests\n",
+            "description": "Test the improved tri-directional search implementation"
+        },
+        {
+            "output": {
+                "points_available": 10,
+                "points_awarded": 10,
+                "autograder_comments": "A star null_heuristic search tests passed\nA star euclidean_dist_heuristic search tests passed\n"
+            },
+            "traceback": "",
+            "description": "Test the a star search implementation"
+        },
+        {
+            "output": {
+                "points_available": 5,
+                "points_awarded": 5,
+                "autograder_comments": "BFS tests passed\n"
+            },
+            "traceback": "",
+            "description": "Test the breadth first search implementation"
+        },
+        {
+            "output": {
+                "points_available": 20,
+                "points_awarded": 20,
+                "autograder_comments": "Bidirectional null_heuristic a star search tests passed\nBidirectional euclidean a star search tests passed\n",
+                "pass_ratio": 1
+            },
+            "traceback": "",
+            "description": "Test the bi-directional a star search implementation"
+        },
+        {
+            "output": {
+                "points_available": 15,
+                "points_awarded": 15,
+                "autograder_comments": "Bidirectional Uniform cost search tests passed\n",
+                "pass_ratio": 1
+            },
+            "traceback": "",
+            "description": "Test the bi-directional uniform cost search implementation"
+        },
+        {
+            "output": {
+                "points_available": 5,
+                "points_awarded": 5,
+                "autograder_comments": "PriorityQueue tests passed\n"
+            },
+            "traceback": "",
+            "description": "Test the priority queue implementation"
+        },
+        {
+            "output": {
+                "points_available": 1,
+                "points_awarded": 1,
+                "autograder_comments": "Name successfully returned\n"
+            },
+            "traceback": "",
+            "description": "Test the student printed their name (a non-empty string)"
+        },
+        {
+            "output": {
+                "points_available": 10,
+                "points_awarded": 10,
+                "autograder_comments": "Uniform cost search tests passed"
+            },
+            "traceback": "",
+            "description": "Test the uniform cost search implementation"
+        }
+    ],
+    "total_points_awarded": 94
+}
